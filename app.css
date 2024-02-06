@@ -49,8 +49,6 @@ header {
 
 footer {
     background-color: #1a1a1a;
-    position: absolute;
-    bottom: 0px;
     width: 100%;
 }
 
@@ -62,4 +60,16 @@ footer {
 
 .logo-header {
     width: 130px;
+}
+
+/* MAIN */
+
+.container-items {
+    padding: 120px 0 50px 0;
+}
+
+.item {
+    width: calc(100% / 3);
+    background-color: #ff6800;
+    height: 300px;
 }
