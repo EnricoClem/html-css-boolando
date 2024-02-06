@@ -88,7 +88,7 @@ main .row {
     font-weight: bold;
 }
 
-.heart {
+[class*="heart"] {
     position: absolute;
     top: 10px;
     right: 0;
@@ -115,3 +115,22 @@ main .row {
 .tab-eco {
     background-color: green;
 }
+
+/* Hover options */
+
+.img-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0%;
+}
+
+.heart-hover {
+    color: red;
+    opacity: 0%;
+}
+
+[class*="hover"]:hover {
+    opacity: 100%;
+}
+
