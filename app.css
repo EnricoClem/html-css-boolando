@@ -67,9 +67,13 @@ footer {
 .container-items {
     padding: 120px 0 50px 0;
 }
+main .row {
+    justify-content: space-between;
+}
 
 .item {
-    width: calc(100% / 3);
+    width: 32.5%;
+    margin-bottom: 15px;
     background-color: #ff6800;
     height: 300px;
 }
